@@ -41,3 +41,5 @@ h <- a        # copy of (e)
 
 h[c(1, 5:7, length(h))] <- 99:95
 print(h)
+
+plot(0:(length(a) - 1), a, type="l")
